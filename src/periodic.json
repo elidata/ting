@@ -3,19 +3,19 @@
         { "family": "Diplomacy & Politics",
             "info":"https://en.wikipedia.org/wiki/Diplomacy",
           "elements" : [
-                {"name":"what", "image": "icons-76.png", "info":"https://en.wikipedia.org/wiki/Engineering"},
-                {"name":"who", "image":"icons-77.png", "info":"https://www.youtube.com/watch?v=1ycJfp6-6Is"},
-                {"name":"lala", "image":"icons-78.png", "info":"https://www.youtube.com/watch?v=hjwYcZR9fIg"},
-                {"name":"other", "image":"icons-79.png", "info":"https://en.wikipedia.org/wiki/Justice"}
+                {"name":"Internal", "image": "icons-76.png", "info":"https://en.wikipedia.org/wiki/Engineering"},
+                {"name":"Foreign", "image":"icons-77.png", "info":"https://www.youtube.com/watch?v=1ycJfp6-6Is"},
+                {"name":"Justice", "image":"icons-78.png", "info":"https://www.youtube.com/watch?v=hjwYcZR9fIg"},
+                {"name":"Gov&Religion", "image":"icons-79.png", "info":"https://en.wikipedia.org/wiki/Justice"}
           ]
     },
     { "family": "Engineering",
         "info":"https://en.wikipedia.org/wiki/Engineering",
       "elements" : [
-            {"name":"what", "image": "icons_new-80.png", "info":"https://en.wikipedia.org/wiki/Engineering"},
-            {"name":"who", "image":"icons_new-81.png", "info":"https://en.wikipedia.org/wiki/Internet_of_things"},
-            {"name":"lala", "image":"icons_new-82.png", "info":"https://www.youtube.com/watch?v=1ycJfp6-6Is"},
-            {"name":"other", "image":"icons_new-83.png", "info":"https://en.wikipedia.org/wiki/Justice"}
+            {"name":"Building", "image": "icons_new-80.png", "info":"https://en.wikipedia.org/wiki/Engineering"},
+            {"name":"Architecture", "image":"icons_new-81.png", "info":"https://en.wikipedia.org/wiki/Internet_of_things"},
+            {"name":"CityPlan", "image":"icons_new-82.png", "info":"https://www.youtube.com/watch?v=1ycJfp6-6Is"},
+            {"name":"Landscape", "image":"icons_new-83.png", "info":"https://en.wikipedia.org/wiki/Justice"}
       ]
 },
 { "family": "Sports",

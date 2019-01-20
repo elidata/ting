@@ -54,12 +54,15 @@ class Family extends Component {
      let el = this.props.elements ;
      let f = this.props.family ;
      let info = this.props.info ;
+     
      console.log("Family",this.props)
 
     return (
     <div>
-     <th><button height="60px" style={{color:"blue" ,"font-size":"larger", alignContent:"right"}} info={info}>{f}</button></th> 
-     {el.map((x,i)=> <th><Element key={i} element={x}  info={info}/></th>)}
+      {el.map((x,i)=> <th><Element key={i} element={x}  info={info}/></th>)}
+  
+     <th><button height="60px" width="150px" style={{color:"blue" ,"font-size":"larger", float:"left"}} info={info}>{f}</button></th> 
+      
     </div>
     )
   }
@@ -85,8 +88,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
          <a>
+           <div float="top">
             <h1>"Future Careers by TING"</h1>
-            <table id="periodic">
+            </div>
+            <table id="periodic" cellpadding="0" cellspacing="0">
             <Periodic families={p}/>
             </table>          </a>
         </header>
